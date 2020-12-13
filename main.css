@@ -84,10 +84,15 @@ li a:hover{
   padding-right: 5px;
 }
 @media only screen and (max-width: 850px) and (min-width: 250px){
-  h1,h2,p,#quote,tr,th{
+  h1,h2,p,#quote,tr,th,a{
     font-size: 1.2rem;
   }
+  .content{
+    margin: 0 auto;
+    max-width: 95%;
+  }
 }
+
 a{
   color: black;
 }
